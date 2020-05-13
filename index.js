@@ -2,7 +2,7 @@ google.charts.load('current', {packages:["orgchart"]});
 google.charts.setOnLoadCallback(drawChart);
 
 function drawChart() {
-  
+
   var data = new google.visualization.DataTable();
 
   data.addColumn('string', 'Name');
