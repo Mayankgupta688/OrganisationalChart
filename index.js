@@ -100,17 +100,6 @@ function drawChart() {
       }, 'Billy Holiday', 'The President'
     ], [
       {
-        'v': '900009310',
-        'f': `
-          <div>
-            <h3>Account Details: 900009310</h3>
-            <div style="font-style:italic">Financial Name: Citibank</div>
-            <div style="font-style:italic">Owner: 	Blue Dog Corporation</div>
-            <div style="font-style:italic">Location: Main Office</div>
-          <div>`
-      }, 'Billy Holiday', 'The President'
-    ], [
-      {
         'v': 'MayankGupta',
         'f': `
           <div>
@@ -158,11 +147,32 @@ function drawChart() {
         'v': 'LeafNode',
         'f': `
           <div>
-            <h3>Leaf Owner: Last Leaf...</h3>
-            <div style="font-style:italic">Financial Name: Citibank Private</div>
-            <div style="font-style:italic">Cash Owner: Mayank Cashman</div>
-            <div style="font-style:italic">Business Unit: Green Cat - Oil</div>
-          <div>`
+            <div style="display: inline-block; height: 100px; width: 250px;  border: 1px solid red; margin-bottom: 5px;">
+              <div>
+                <h3>Account Owner: Blue Dog Capital Private</h3>
+                <div style="font-style:italic">Financial Name: Citibank Private</div>
+                <div style="font-style:italic">Cash Owner: Mayank Cashman</div>
+                <div style="font-style:italic">Business Unit: Green Cat - Oil</div>
+              </div>
+            </div>
+            <div style="display: inline-block; height: 100px; width: 250px;  border: 1px solid red; margin-bottom: 5px;">
+              <div>
+                <h3>Account Owner: Blue Dog Capital Private</h3>
+                <div style="font-style:italic">Financial Name: Citibank Private</div>
+                <div style="font-style:italic">Cash Owner: Mayank Cashman</div>
+                <div style="font-style:italic">Business Unit: Green Cat - Oil</div>
+              </div>
+            </div>
+            <div style="display: inline-block; height: 100px; width: 250px;  border: 1px solid red; margin-bottom: 5px;">
+              <div>
+                <h3>Account Owner: Blue Dog Capital Private</h3>
+                <div style="font-style:italic">Financial Name: Citibank Private</div>
+                <div style="font-style:italic">Cash Owner: Mayank Cashman</div>
+                <div style="font-style:italic">Business Unit: Green Cat - Oil</div>
+              </div>
+            </div>
+          </div>  
+        `
       }, 'OtherSampleData', 'The President'
     ]
   ]);
