@@ -1,10 +1,13 @@
+google.charts.load('current', { packages: ["orgchart"] });
+google.charts.setOnLoadCallback(drawChart);
+
 var data = [
   {
       "self": {
           "href": "https://web/scc/api/internalentities/299ab227-f2e4-497d-9374-bfa75b3adb73",
           "customer": "bluedog",
           "metaInfo": "application/json; version=1; ION Group IBAM, 2019",
-          "asOfDateTime": "2020-09-10T12:45:03.009"
+          "asOfDateTime": "2020-09-10T18:11:13.113"
       },
       "internalEntity": {
           "id": "299ab227-f2e4-497d-9374-bfa75b3adb73",
@@ -49,10 +52,72 @@ var data = [
   },
   {
       "self": {
+          "href": "https://web/scc/api/internalentities/389e9f1f-5a9e-450f-aa75-e862238223a7",
+          "customer": "bluedog",
+          "metaInfo": "application/json; version=1; ION Group IBAM, 2019",
+          "asOfDateTime": "2020-09-10T18:11:13.113"
+      },
+      "internalEntity": {
+          "id": "389e9f1f-5a9e-450f-aa75-e862238223a7",
+          "status": "ACTIVE",
+          "lastModifiedAt": "2020-09-10T18:01:07.437",
+          "createdAt": "2020-09-10T18:01:05.917",
+          "entityName": "Level 1.1.2",
+          "masterAgreement": false,
+          "centralSignersAdopted": false,
+          "centrallyManaged": false,
+          "parent": {
+              "id": "f54e7d82-a2a7-4590-b143-93e6d0f15a02",
+              "href": "https://web/scc/api/internalentities/f54e7d82-a2a7-4590-b143-93e6d0f15a02",
+              "description": "Level 1.1",
+              "type": "internalentity",
+              "status": "ACTIVE",
+              "lastModifiedAt": "2020-09-10T17:59:08.297"
+          },
+          "ultimateParent": {
+              "id": "272e500c-a6dd-485e-a503-7ec151b684a1",
+              "href": "https://web/scc/api/internalentities/272e500c-a6dd-485e-a503-7ec151b684a1",
+              "description": "Level 0",
+              "type": "internalentity",
+              "status": "ACTIVE",
+              "lastModifiedAt": "2020-09-10T17:57:31.043"
+          },
+          "legalAddress": {
+              "id": "5849e72a-a4e2-4c6b-b494-7a0285422a5d"
+          },
+          "businessAddress": {
+              "id": "d96d5cf3-a98d-4521-811a-98137b9dc203"
+          },
+          "domicileAddress": {
+              "id": "50d5e7f7-935d-491e-b93c-fe5dab84741c"
+          },
+          "additionalProperties": [
+              {
+                  "id": "5138101d-c799-4566-bd5d-926e85cc0645",
+                  "name": "IEPropertyName1",
+                  "value": "false"
+              },
+              {
+                  "id": "a34b4894-8ec0-45bb-ba4f-adbc3a9b389d",
+                  "name": "IEPropertyName3"
+              },
+              {
+                  "id": "c276af06-4c6c-4513-897b-eebf28688b0b",
+                  "name": "IEPropertyName2"
+              },
+              {
+                  "id": "8b5f7574-058b-49b9-bf97-8957184442c0",
+                  "name": "IEPropertyName4"
+              }
+          ]
+      }
+  },
+  {
+      "self": {
           "href": "https://web/scc/api/internalentities/8aba7c67-d203-4f14-be5b-09f85ca69bfe",
           "customer": "bluedog",
           "metaInfo": "application/json; version=1; ION Group IBAM, 2019",
-          "asOfDateTime": "2020-09-10T12:45:03.009"
+          "asOfDateTime": "2020-09-10T18:11:13.113"
       },
       "internalEntity": {
           "id": "8aba7c67-d203-4f14-be5b-09f85ca69bfe",
@@ -180,10 +245,72 @@ var data = [
   },
   {
       "self": {
+          "href": "https://web/scc/api/internalentities/40372d22-ccbf-455c-9998-cd1d8aa8d056",
+          "customer": "bluedog",
+          "metaInfo": "application/json; version=1; ION Group IBAM, 2019",
+          "asOfDateTime": "2020-09-10T18:11:13.113"
+      },
+      "internalEntity": {
+          "id": "40372d22-ccbf-455c-9998-cd1d8aa8d056",
+          "status": "ACTIVE",
+          "lastModifiedAt": "2020-09-10T18:10:02.07",
+          "createdAt": "2020-09-10T18:10:00.11",
+          "entityName": "Level 1.4.2",
+          "masterAgreement": false,
+          "centralSignersAdopted": false,
+          "centrallyManaged": false,
+          "parent": {
+              "id": "3503277b-cf75-48d9-89ce-04855356a6b7",
+              "href": "https://web/scc/api/internalentities/3503277b-cf75-48d9-89ce-04855356a6b7",
+              "description": "Level 1.4",
+              "type": "internalentity",
+              "status": "ACTIVE",
+              "lastModifiedAt": "2020-09-10T18:08:23.727"
+          },
+          "ultimateParent": {
+              "id": "272e500c-a6dd-485e-a503-7ec151b684a1",
+              "href": "https://web/scc/api/internalentities/272e500c-a6dd-485e-a503-7ec151b684a1",
+              "description": "Level 0",
+              "type": "internalentity",
+              "status": "ACTIVE",
+              "lastModifiedAt": "2020-09-10T17:57:31.043"
+          },
+          "legalAddress": {
+              "id": "672c0b5f-ccd2-4676-90d7-a9a62ffdd77f"
+          },
+          "businessAddress": {
+              "id": "c94a3dc5-34c6-4b90-80c7-ecf34d628d41"
+          },
+          "domicileAddress": {
+              "id": "db8e9aee-2383-4889-89bd-f3bbc0e53b46"
+          },
+          "additionalProperties": [
+              {
+                  "id": "0b974461-fb27-4792-b96a-5debbb5b4071",
+                  "name": "IEPropertyName3"
+              },
+              {
+                  "id": "907ed5db-1267-4535-a5b5-856f31bda8d6",
+                  "name": "IEPropertyName4"
+              },
+              {
+                  "id": "98e03ab8-d136-44be-ac1c-60384588db9f",
+                  "name": "IEPropertyName1",
+                  "value": "false"
+              },
+              {
+                  "id": "edad5aea-1565-48a7-8f9d-a5747ef8fae8",
+                  "name": "IEPropertyName2"
+              }
+          ]
+      }
+  },
+  {
+      "self": {
           "href": "https://web/scc/api/internalentities/full-ie-unicode-1",
           "customer": "bluedog",
           "metaInfo": "application/json; version=1; ION Group IBAM, 2019",
-          "asOfDateTime": "2020-09-10T12:45:03.009"
+          "asOfDateTime": "2020-09-10T18:11:13.113"
       },
       "internalEntity": {
           "id": "full-ie-unicode-1",
@@ -329,15 +456,77 @@ var data = [
   },
   {
       "self": {
+          "href": "https://web/scc/api/internalentities/7daaf148-7197-4d22-a2f2-551cf062253f",
+          "customer": "bluedog",
+          "metaInfo": "application/json; version=1; ION Group IBAM, 2019",
+          "asOfDateTime": "2020-09-10T18:11:13.113"
+      },
+      "internalEntity": {
+          "id": "7daaf148-7197-4d22-a2f2-551cf062253f",
+          "status": "ACTIVE",
+          "lastModifiedAt": "2020-09-10T18:03:31.127",
+          "createdAt": "2020-09-10T18:03:29.41",
+          "entityName": "Level 1.2.1",
+          "masterAgreement": false,
+          "centralSignersAdopted": false,
+          "centrallyManaged": false,
+          "parent": {
+              "id": "738a120c-dbdf-4206-a33a-dc3278855264",
+              "href": "https://web/scc/api/internalentities/738a120c-dbdf-4206-a33a-dc3278855264",
+              "description": "Level 1.2",
+              "type": "internalentity",
+              "status": "ACTIVE",
+              "lastModifiedAt": "2020-09-10T18:02:22.957"
+          },
+          "ultimateParent": {
+              "id": "272e500c-a6dd-485e-a503-7ec151b684a1",
+              "href": "https://web/scc/api/internalentities/272e500c-a6dd-485e-a503-7ec151b684a1",
+              "description": "Level 0",
+              "type": "internalentity",
+              "status": "ACTIVE",
+              "lastModifiedAt": "2020-09-10T17:57:31.043"
+          },
+          "legalAddress": {
+              "id": "61b969b7-1f7e-4833-bad2-5a3c5b974e54"
+          },
+          "businessAddress": {
+              "id": "51996221-e50c-499b-b068-d5c13a962f90"
+          },
+          "domicileAddress": {
+              "id": "9c2a936e-1964-415b-92aa-191f847dc1ff"
+          },
+          "additionalProperties": [
+              {
+                  "id": "7c9a88f7-71c8-4e92-86e5-785fd78f285f",
+                  "name": "IEPropertyName1",
+                  "value": "false"
+              },
+              {
+                  "id": "4cff5c5e-9938-4f52-ad4c-fa037f894d12",
+                  "name": "IEPropertyName3"
+              },
+              {
+                  "id": "7d7aec09-b459-46ac-8cde-0ccf6eb11784",
+                  "name": "IEPropertyName2"
+              },
+              {
+                  "id": "321bd679-4979-4c50-9bf4-3b1357f90129",
+                  "name": "IEPropertyName4"
+              }
+          ]
+      }
+  },
+  {
+      "self": {
           "href": "https://web/scc/api/internalentities/3e024582-eecf-4e9c-8fde-ad13beed7ed0",
           "customer": "bluedog",
           "metaInfo": "application/json; version=1; ION Group IBAM, 2019",
-          "asOfDateTime": "2020-09-10T12:45:03.009"
+          "asOfDateTime": "2020-09-10T18:11:13.113"
       },
       "internalEntity": {
           "id": "3e024582-eecf-4e9c-8fde-ad13beed7ed0",
           "status": "ACTIVE",
-          "lastModifiedAt": "2020-09-10T12:44:41.667",
+          "lastModifiedAt": "2020-09-10T17:53:42.653",
           "createdAt": "2020-09-10T12:44:39.667",
           "entityName": "Child Parent",
           "masterAgreement": false,
@@ -394,7 +583,7 @@ var data = [
           "href": "https://web/scc/api/internalentities/full-ie-branch",
           "customer": "bluedog",
           "metaInfo": "application/json; version=1; ION Group IBAM, 2019",
-          "asOfDateTime": "2020-09-10T12:45:03.009"
+          "asOfDateTime": "2020-09-10T18:11:13.113"
       },
       "internalEntity": {
           "id": "full-ie-branch",
@@ -441,7 +630,7 @@ var data = [
           "href": "https://web/scc/api/internalentities/a6c5a483-f0aa-48a0-9e37-7afe059a6040",
           "customer": "bluedog",
           "metaInfo": "application/json; version=1; ION Group IBAM, 2019",
-          "asOfDateTime": "2020-09-10T12:45:03.009"
+          "asOfDateTime": "2020-09-10T18:11:13.113"
       },
       "internalEntity": {
           "id": "a6c5a483-f0aa-48a0-9e37-7afe059a6040",
@@ -472,7 +661,7 @@ var data = [
           "href": "https://web/scc/api/internalentities/full-ie",
           "customer": "bluedog",
           "metaInfo": "application/json; version=1; ION Group IBAM, 2019",
-          "asOfDateTime": "2020-09-10T12:45:03.009"
+          "asOfDateTime": "2020-09-10T18:11:13.113"
       },
       "internalEntity": {
           "id": "full-ie",
@@ -634,7 +823,7 @@ var data = [
           "href": "https://web/scc/api/internalentities/43957019-45bb-4ae1-9bde-34008091ff91",
           "customer": "bluedog",
           "metaInfo": "application/json; version=1; ION Group IBAM, 2019",
-          "asOfDateTime": "2020-09-10T12:45:03.009"
+          "asOfDateTime": "2020-09-10T18:11:13.113"
       },
       "internalEntity": {
           "id": "43957019-45bb-4ae1-9bde-34008091ff91",
@@ -679,10 +868,56 @@ var data = [
   },
   {
       "self": {
+          "href": "https://web/scc/api/internalentities/272e500c-a6dd-485e-a503-7ec151b684a1",
+          "customer": "bluedog",
+          "metaInfo": "application/json; version=1; ION Group IBAM, 2019",
+          "asOfDateTime": "2020-09-10T18:11:13.113"
+      },
+      "internalEntity": {
+          "id": "272e500c-a6dd-485e-a503-7ec151b684a1",
+          "status": "ACTIVE",
+          "lastModifiedAt": "2020-09-10T17:57:31.043",
+          "createdAt": "2020-09-10T17:57:28.373",
+          "entityName": "Level 0",
+          "masterAgreement": false,
+          "centralSignersAdopted": false,
+          "centrallyManaged": false,
+          "legalAddress": {
+              "id": "7d3caeb7-0c71-423f-bfef-7455cc722b2f"
+          },
+          "businessAddress": {
+              "id": "807789c3-34fe-40f5-b9f7-7df7e0ce2770"
+          },
+          "domicileAddress": {
+              "id": "4bcb0209-cd15-47ed-9d43-21adbf179d46"
+          },
+          "additionalProperties": [
+              {
+                  "id": "c47c3469-99b6-4dd5-a4ee-43dfcc919953",
+                  "name": "IEPropertyName2"
+              },
+              {
+                  "id": "8e081b5b-fd03-43b2-8bbe-24b526fc39ca",
+                  "name": "IEPropertyName4"
+              },
+              {
+                  "id": "eb1e3b0f-b9b5-4d72-8ce9-a493f87f084f",
+                  "name": "IEPropertyName1",
+                  "value": "false"
+              },
+              {
+                  "id": "e04c80f8-edb8-485c-aa14-e17cca08fe84",
+                  "name": "IEPropertyName3"
+              }
+          ]
+      }
+  },
+  {
+      "self": {
           "href": "https://web/scc/api/internalentities/4747365a-5923-48f3-ad63-0bce65f2107f",
           "customer": "bluedog",
           "metaInfo": "application/json; version=1; ION Group IBAM, 2019",
-          "asOfDateTime": "2020-09-10T12:45:03.009"
+          "asOfDateTime": "2020-09-10T18:11:13.113"
       },
       "internalEntity": {
           "id": "4747365a-5923-48f3-ad63-0bce65f2107f",
@@ -730,7 +965,7 @@ var data = [
           "href": "https://web/scc/api/internalentities/2c879818-f09b-413b-8a16-40d4cfa77f68",
           "customer": "bluedog",
           "metaInfo": "application/json; version=1; ION Group IBAM, 2019",
-          "asOfDateTime": "2020-09-10T12:45:03.009"
+          "asOfDateTime": "2020-09-10T18:11:13.113"
       },
       "internalEntity": {
           "id": "2c879818-f09b-413b-8a16-40d4cfa77f68",
@@ -761,7 +996,7 @@ var data = [
           "href": "https://web/scc/api/internalentities/225fd654-4ccd-4177-a719-d3e62f4257ea",
           "customer": "bluedog",
           "metaInfo": "application/json; version=1; ION Group IBAM, 2019",
-          "asOfDateTime": "2020-09-10T12:45:03.009"
+          "asOfDateTime": "2020-09-10T18:11:13.113"
       },
       "internalEntity": {
           "id": "225fd654-4ccd-4177-a719-d3e62f4257ea",
@@ -860,10 +1095,72 @@ var data = [
   },
   {
       "self": {
+          "href": "https://web/scc/api/internalentities/a3237b74-b778-4e05-a40b-ebf2808c55f3",
+          "customer": "bluedog",
+          "metaInfo": "application/json; version=1; ION Group IBAM, 2019",
+          "asOfDateTime": "2020-09-10T18:11:13.113"
+      },
+      "internalEntity": {
+          "id": "a3237b74-b778-4e05-a40b-ebf2808c55f3",
+          "status": "ACTIVE",
+          "lastModifiedAt": "2020-09-10T18:06:59.88",
+          "createdAt": "2020-09-10T17:59:24.453",
+          "entityName": "Level 1.3",
+          "masterAgreement": false,
+          "centralSignersAdopted": false,
+          "centrallyManaged": false,
+          "parent": {
+              "id": "272e500c-a6dd-485e-a503-7ec151b684a1",
+              "href": "https://web/scc/api/internalentities/272e500c-a6dd-485e-a503-7ec151b684a1",
+              "description": "Level 0",
+              "type": "internalentity",
+              "status": "ACTIVE",
+              "lastModifiedAt": "2020-09-10T17:57:31.043"
+          },
+          "ultimateParent": {
+              "id": "272e500c-a6dd-485e-a503-7ec151b684a1",
+              "href": "https://web/scc/api/internalentities/272e500c-a6dd-485e-a503-7ec151b684a1",
+              "description": "Level 0",
+              "type": "internalentity",
+              "status": "ACTIVE",
+              "lastModifiedAt": "2020-09-10T17:57:31.043"
+          },
+          "legalAddress": {
+              "id": "5521f0c6-e209-46cb-abf8-c3bf3d5c3192"
+          },
+          "businessAddress": {
+              "id": "2112b6ba-ddcc-4345-8383-94bb862aae1d"
+          },
+          "domicileAddress": {
+              "id": "b07f3137-bc64-47bf-b929-712ad7d86456"
+          },
+          "additionalProperties": [
+              {
+                  "id": "3821e6ea-7954-4d96-9add-3d88188c658a",
+                  "name": "IEPropertyName1",
+                  "value": "false"
+              },
+              {
+                  "id": "925de548-14ac-4289-974b-cd5c3e9daea2",
+                  "name": "IEPropertyName4"
+              },
+              {
+                  "id": "5e82dd19-2e03-448d-aa08-4c7862b5bd89",
+                  "name": "IEPropertyName3"
+              },
+              {
+                  "id": "f57c1324-50c7-430a-ae8a-a1fb64957a0c",
+                  "name": "IEPropertyName2"
+              }
+          ]
+      }
+  },
+  {
+      "self": {
           "href": "https://web/scc/api/internalentities/e5c03af6-3011-4b6c-9946-a2397788dd7b",
           "customer": "bluedog",
           "metaInfo": "application/json; version=1; ION Group IBAM, 2019",
-          "asOfDateTime": "2020-09-10T12:45:03.009"
+          "asOfDateTime": "2020-09-10T18:11:13.113"
       },
       "internalEntity": {
           "id": "e5c03af6-3011-4b6c-9946-a2397788dd7b",
@@ -891,10 +1188,72 @@ var data = [
   },
   {
       "self": {
+          "href": "https://web/scc/api/internalentities/f54e7d82-a2a7-4590-b143-93e6d0f15a02",
+          "customer": "bluedog",
+          "metaInfo": "application/json; version=1; ION Group IBAM, 2019",
+          "asOfDateTime": "2020-09-10T18:11:13.113"
+      },
+      "internalEntity": {
+          "id": "f54e7d82-a2a7-4590-b143-93e6d0f15a02",
+          "status": "ACTIVE",
+          "lastModifiedAt": "2020-09-10T18:06:34.893",
+          "createdAt": "2020-09-10T17:59:06.13",
+          "entityName": "Level 1.1",
+          "masterAgreement": false,
+          "centralSignersAdopted": false,
+          "centrallyManaged": false,
+          "parent": {
+              "id": "272e500c-a6dd-485e-a503-7ec151b684a1",
+              "href": "https://web/scc/api/internalentities/272e500c-a6dd-485e-a503-7ec151b684a1",
+              "description": "Level 0",
+              "type": "internalentity",
+              "status": "ACTIVE",
+              "lastModifiedAt": "2020-09-10T17:57:31.043"
+          },
+          "ultimateParent": {
+              "id": "272e500c-a6dd-485e-a503-7ec151b684a1",
+              "href": "https://web/scc/api/internalentities/272e500c-a6dd-485e-a503-7ec151b684a1",
+              "description": "Level 0",
+              "type": "internalentity",
+              "status": "ACTIVE",
+              "lastModifiedAt": "2020-09-10T17:57:31.043"
+          },
+          "legalAddress": {
+              "id": "63eed849-326d-4402-9e3c-91c72e43998d"
+          },
+          "businessAddress": {
+              "id": "b7df2b30-a78a-40be-8d97-9a01296529a8"
+          },
+          "domicileAddress": {
+              "id": "2da73ff9-fec7-472b-8f31-6894968ed95a"
+          },
+          "additionalProperties": [
+              {
+                  "id": "4ac994a1-b920-440f-b186-39a325e4a292",
+                  "name": "IEPropertyName4"
+              },
+              {
+                  "id": "2a32d665-8684-4939-99c8-bb80f097b4b9",
+                  "name": "IEPropertyName1",
+                  "value": "false"
+              },
+              {
+                  "id": "3af575ce-a1ce-4832-88c2-df4465bf9174",
+                  "name": "IEPropertyName3"
+              },
+              {
+                  "id": "dba1b886-9cbf-46e9-9031-5e4779a2f5f3",
+                  "name": "IEPropertyName2"
+              }
+          ]
+      }
+  },
+  {
+      "self": {
           "href": "https://web/scc/api/internalentities/e3e30774-b0b3-4e26-90a7-53d8221e0334",
           "customer": "bluedog",
           "metaInfo": "application/json; version=1; ION Group IBAM, 2019",
-          "asOfDateTime": "2020-09-10T12:45:03.009"
+          "asOfDateTime": "2020-09-10T18:11:13.113"
       },
       "internalEntity": {
           "id": "e3e30774-b0b3-4e26-90a7-53d8221e0334",
@@ -927,7 +1286,7 @@ var data = [
           "href": "https://web/scc/api/internalentities/10da4c3b-f70e-41c1-857d-c760e142bbc9",
           "customer": "bluedog",
           "metaInfo": "application/json; version=1; ION Group IBAM, 2019",
-          "asOfDateTime": "2020-09-10T12:45:03.009"
+          "asOfDateTime": "2020-09-10T18:11:13.113"
       },
       "internalEntity": {
           "id": "10da4c3b-f70e-41c1-857d-c760e142bbc9",
@@ -1025,10 +1384,134 @@ var data = [
   },
   {
       "self": {
+          "href": "https://web/scc/api/internalentities/3503277b-cf75-48d9-89ce-04855356a6b7",
+          "customer": "bluedog",
+          "metaInfo": "application/json; version=1; ION Group IBAM, 2019",
+          "asOfDateTime": "2020-09-10T18:11:13.113"
+      },
+      "internalEntity": {
+          "id": "3503277b-cf75-48d9-89ce-04855356a6b7",
+          "status": "ACTIVE",
+          "lastModifiedAt": "2020-09-10T18:08:23.727",
+          "createdAt": "2020-09-10T18:08:21.663",
+          "entityName": "Level 1.4",
+          "masterAgreement": false,
+          "centralSignersAdopted": false,
+          "centrallyManaged": false,
+          "parent": {
+              "id": "272e500c-a6dd-485e-a503-7ec151b684a1",
+              "href": "https://web/scc/api/internalentities/272e500c-a6dd-485e-a503-7ec151b684a1",
+              "description": "Level 0",
+              "type": "internalentity",
+              "status": "ACTIVE",
+              "lastModifiedAt": "2020-09-10T17:57:31.043"
+          },
+          "ultimateParent": {
+              "id": "272e500c-a6dd-485e-a503-7ec151b684a1",
+              "href": "https://web/scc/api/internalentities/272e500c-a6dd-485e-a503-7ec151b684a1",
+              "description": "Level 0",
+              "type": "internalentity",
+              "status": "ACTIVE",
+              "lastModifiedAt": "2020-09-10T17:57:31.043"
+          },
+          "legalAddress": {
+              "id": "6a0be811-4403-4e52-88af-7f013552627b"
+          },
+          "businessAddress": {
+              "id": "d16bce1a-25ac-482a-b148-f08636adbe2a"
+          },
+          "domicileAddress": {
+              "id": "308544c5-22db-4c64-9b4f-c18fcbbc5890"
+          },
+          "additionalProperties": [
+              {
+                  "id": "40b38cb3-54fb-4590-93ba-7492a7a0f8e9",
+                  "name": "IEPropertyName4"
+              },
+              {
+                  "id": "db197b23-50af-4e75-9276-1e15169b53dd",
+                  "name": "IEPropertyName1",
+                  "value": "false"
+              },
+              {
+                  "id": "e7ae611e-fab4-47f3-93a9-dbdabe78993a",
+                  "name": "IEPropertyName2"
+              },
+              {
+                  "id": "6fd03eb4-f057-417d-8ca7-c2e7dcc5e6dd",
+                  "name": "IEPropertyName3"
+              }
+          ]
+      }
+  },
+  {
+      "self": {
+          "href": "https://web/scc/api/internalentities/738a120c-dbdf-4206-a33a-dc3278855264",
+          "customer": "bluedog",
+          "metaInfo": "application/json; version=1; ION Group IBAM, 2019",
+          "asOfDateTime": "2020-09-10T18:11:13.113"
+      },
+      "internalEntity": {
+          "id": "738a120c-dbdf-4206-a33a-dc3278855264",
+          "status": "ACTIVE",
+          "lastModifiedAt": "2020-09-10T18:02:22.957",
+          "createdAt": "2020-09-10T17:58:01.303",
+          "entityName": "Level 1.2",
+          "masterAgreement": false,
+          "centralSignersAdopted": false,
+          "centrallyManaged": false,
+          "parent": {
+              "id": "272e500c-a6dd-485e-a503-7ec151b684a1",
+              "href": "https://web/scc/api/internalentities/272e500c-a6dd-485e-a503-7ec151b684a1",
+              "description": "Level 0",
+              "type": "internalentity",
+              "status": "ACTIVE",
+              "lastModifiedAt": "2020-09-10T17:57:31.043"
+          },
+          "ultimateParent": {
+              "id": "272e500c-a6dd-485e-a503-7ec151b684a1",
+              "href": "https://web/scc/api/internalentities/272e500c-a6dd-485e-a503-7ec151b684a1",
+              "description": "Level 0",
+              "type": "internalentity",
+              "status": "ACTIVE",
+              "lastModifiedAt": "2020-09-10T17:57:31.043"
+          },
+          "legalAddress": {
+              "id": "fef0678b-95d5-406a-b354-619455f78ee9"
+          },
+          "businessAddress": {
+              "id": "54672f7a-e742-449c-a797-d319c7c01b4c"
+          },
+          "domicileAddress": {
+              "id": "c4a4557c-bf1c-44d0-842a-7cdf66b76970"
+          },
+          "additionalProperties": [
+              {
+                  "id": "64adf610-655b-46c1-9160-84ca6555bb72",
+                  "name": "IEPropertyName4"
+              },
+              {
+                  "id": "a65e406c-b320-474a-ab30-3f388c2e29db",
+                  "name": "IEPropertyName1",
+                  "value": "false"
+              },
+              {
+                  "id": "eb69d0ce-7e88-41da-8747-f8735d54ea33",
+                  "name": "IEPropertyName3"
+              },
+              {
+                  "id": "c022c4d7-19f7-4017-a244-2701853e3976",
+                  "name": "IEPropertyName2"
+              }
+          ]
+      }
+  },
+  {
+      "self": {
           "href": "https://web/scc/api/internalentities/full-ie-ultimate",
           "customer": "bluedog",
           "metaInfo": "application/json; version=1; ION Group IBAM, 2019",
-          "asOfDateTime": "2020-09-10T12:45:03.009"
+          "asOfDateTime": "2020-09-10T18:11:13.113"
       },
       "internalEntity": {
           "id": "full-ie-ultimate",
@@ -1075,7 +1558,7 @@ var data = [
           "href": "https://web/scc/api/internalentities/d0650b0f-ef6b-4669-8ebc-ed2df1e234b3",
           "customer": "bluedog",
           "metaInfo": "application/json; version=1; ION Group IBAM, 2019",
-          "asOfDateTime": "2020-09-10T12:45:03.009"
+          "asOfDateTime": "2020-09-10T18:11:13.113"
       },
       "internalEntity": {
           "id": "d0650b0f-ef6b-4669-8ebc-ed2df1e234b3",
@@ -1106,7 +1589,7 @@ var data = [
           "href": "https://web/scc/api/internalentities/IE1",
           "customer": "bluedog",
           "metaInfo": "application/json; version=1; ION Group IBAM, 2019",
-          "asOfDateTime": "2020-09-10T12:45:03.009"
+          "asOfDateTime": "2020-09-10T18:11:13.113"
       },
       "internalEntity": {
           "id": "IE1",
@@ -1196,7 +1679,7 @@ var data = [
           "href": "https://web/scc/api/internalentities/full-ie-parent",
           "customer": "bluedog",
           "metaInfo": "application/json; version=1; ION Group IBAM, 2019",
-          "asOfDateTime": "2020-09-10T12:45:03.009"
+          "asOfDateTime": "2020-09-10T18:11:13.113"
       },
       "internalEntity": {
           "id": "full-ie-parent",
@@ -1243,7 +1726,7 @@ var data = [
           "href": "https://web/scc/api/internalentities/a50424ed-50c3-44ad-9dd6-f0f3e5ebc619",
           "customer": "bluedog",
           "metaInfo": "application/json; version=1; ION Group IBAM, 2019",
-          "asOfDateTime": "2020-09-10T12:45:03.009"
+          "asOfDateTime": "2020-09-10T18:11:13.113"
       },
       "internalEntity": {
           "id": "a50424ed-50c3-44ad-9dd6-f0f3e5ebc619",
@@ -1284,7 +1767,7 @@ var data = [
           "href": "https://web/scc/api/internalentities/ce43f7e1-1621-45eb-a044-dc322934728b",
           "customer": "bluedog",
           "metaInfo": "application/json; version=1; ION Group IBAM, 2019",
-          "asOfDateTime": "2020-09-10T12:45:03.009"
+          "asOfDateTime": "2020-09-10T18:11:13.113"
       },
       "internalEntity": {
           "id": "ce43f7e1-1621-45eb-a044-dc322934728b",
@@ -1329,10 +1812,134 @@ var data = [
   },
   {
       "self": {
+          "href": "https://web/scc/api/internalentities/bf687706-c8cf-4beb-bce1-bd6a85b62d02",
+          "customer": "bluedog",
+          "metaInfo": "application/json; version=1; ION Group IBAM, 2019",
+          "asOfDateTime": "2020-09-10T18:11:13.113"
+      },
+      "internalEntity": {
+          "id": "bf687706-c8cf-4beb-bce1-bd6a85b62d02",
+          "status": "ACTIVE",
+          "lastModifiedAt": "2020-09-10T18:03:49.257",
+          "createdAt": "2020-09-10T18:03:47.297",
+          "entityName": "Level 1.2.2",
+          "masterAgreement": false,
+          "centralSignersAdopted": false,
+          "centrallyManaged": false,
+          "parent": {
+              "id": "738a120c-dbdf-4206-a33a-dc3278855264",
+              "href": "https://web/scc/api/internalentities/738a120c-dbdf-4206-a33a-dc3278855264",
+              "description": "Level 1.2",
+              "type": "internalentity",
+              "status": "ACTIVE",
+              "lastModifiedAt": "2020-09-10T18:02:22.957"
+          },
+          "ultimateParent": {
+              "id": "272e500c-a6dd-485e-a503-7ec151b684a1",
+              "href": "https://web/scc/api/internalentities/272e500c-a6dd-485e-a503-7ec151b684a1",
+              "description": "Level 0",
+              "type": "internalentity",
+              "status": "ACTIVE",
+              "lastModifiedAt": "2020-09-10T17:57:31.043"
+          },
+          "legalAddress": {
+              "id": "def9e349-4e54-4312-a771-d7a8eacd972f"
+          },
+          "businessAddress": {
+              "id": "4f7b87ca-dd83-40c0-9da6-50c7504afadc"
+          },
+          "domicileAddress": {
+              "id": "b33acb1f-121d-4cd6-9df5-bee949736ad1"
+          },
+          "additionalProperties": [
+              {
+                  "id": "e70930f2-894d-45d9-8525-058bd0b0e773",
+                  "name": "IEPropertyName1",
+                  "value": "false"
+              },
+              {
+                  "id": "0ebfb33f-d949-4f37-b97e-8ba975558b19",
+                  "name": "IEPropertyName4"
+              },
+              {
+                  "id": "b2ad37c4-d5da-4d91-9f12-7652a3b42113",
+                  "name": "IEPropertyName2"
+              },
+              {
+                  "id": "52923243-d49b-44de-9a97-43a802bd4aef",
+                  "name": "IEPropertyName3"
+              }
+          ]
+      }
+  },
+  {
+      "self": {
+          "href": "https://web/scc/api/internalentities/2f24992b-e5df-4001-bade-3ae4316f7f0b",
+          "customer": "bluedog",
+          "metaInfo": "application/json; version=1; ION Group IBAM, 2019",
+          "asOfDateTime": "2020-09-10T18:11:13.113"
+      },
+      "internalEntity": {
+          "id": "2f24992b-e5df-4001-bade-3ae4316f7f0b",
+          "status": "ACTIVE",
+          "lastModifiedAt": "2020-09-10T17:46:21",
+          "createdAt": "2020-09-10T17:46:19.257",
+          "entityName": "GrandChild Parent",
+          "masterAgreement": false,
+          "centralSignersAdopted": false,
+          "centrallyManaged": false,
+          "parent": {
+              "id": "79d269ba-c2cd-4b61-b653-840df7250e78",
+              "href": "https://web/scc/api/internalentities/79d269ba-c2cd-4b61-b653-840df7250e78",
+              "description": "Other Child Parent",
+              "type": "internalentity",
+              "status": "ACTIVE",
+              "lastModifiedAt": "2020-09-10T17:45:43.82"
+          },
+          "ultimateParent": {
+              "id": "43957019-45bb-4ae1-9bde-34008091ff91",
+              "href": "https://web/scc/api/internalentities/43957019-45bb-4ae1-9bde-34008091ff91",
+              "description": "Top Parent",
+              "type": "internalentity",
+              "status": "ACTIVE",
+              "lastModifiedAt": "2020-09-10T12:43:01.6"
+          },
+          "legalAddress": {
+              "id": "bdc4aed4-7c66-4162-9b5d-724f4a01d241"
+          },
+          "businessAddress": {
+              "id": "fe5e2dac-0cc3-4202-a190-e4896705c674"
+          },
+          "domicileAddress": {
+              "id": "d6975e61-4348-48b0-97a8-32ca0c057fce"
+          },
+          "additionalProperties": [
+              {
+                  "id": "be9cc5d9-563d-4160-b33d-f75f10d76788",
+                  "name": "IEPropertyName1",
+                  "value": "false"
+              },
+              {
+                  "id": "dfa9e57d-91ee-48cf-b854-dcee6ad0c0c1",
+                  "name": "IEPropertyName3"
+              },
+              {
+                  "id": "94fad177-7d2e-4572-b3b5-6139345bd968",
+                  "name": "IEPropertyName2"
+              },
+              {
+                  "id": "b139350e-df20-465a-a882-2614992f2656",
+                  "name": "IEPropertyName4"
+              }
+          ]
+      }
+  },
+  {
+      "self": {
           "href": "https://web/scc/api/internalentities/e30a7129-1bea-47e4-ade8-91a20d1c692e",
           "customer": "bluedog",
           "metaInfo": "application/json; version=1; ION Group IBAM, 2019",
-          "asOfDateTime": "2020-09-10T12:45:03.009"
+          "asOfDateTime": "2020-09-10T18:11:13.113"
       },
       "internalEntity": {
           "id": "e30a7129-1bea-47e4-ade8-91a20d1c692e",
@@ -1365,10 +1972,134 @@ var data = [
   },
   {
       "self": {
+          "href": "https://web/scc/api/internalentities/d046b055-0761-471a-be72-141708721777",
+          "customer": "bluedog",
+          "metaInfo": "application/json; version=1; ION Group IBAM, 2019",
+          "asOfDateTime": "2020-09-10T18:11:13.113"
+      },
+      "internalEntity": {
+          "id": "d046b055-0761-471a-be72-141708721777",
+          "status": "ACTIVE",
+          "lastModifiedAt": "2020-09-10T18:04:31.393",
+          "createdAt": "2020-09-10T18:04:29.843",
+          "entityName": "Level 1.3.1",
+          "masterAgreement": false,
+          "centralSignersAdopted": false,
+          "centrallyManaged": false,
+          "parent": {
+              "id": "a3237b74-b778-4e05-a40b-ebf2808c55f3",
+              "href": "https://web/scc/api/internalentities/a3237b74-b778-4e05-a40b-ebf2808c55f3",
+              "description": "Level 1.3",
+              "type": "internalentity",
+              "status": "ACTIVE",
+              "lastModifiedAt": "2020-09-10T17:59:26.29"
+          },
+          "ultimateParent": {
+              "id": "272e500c-a6dd-485e-a503-7ec151b684a1",
+              "href": "https://web/scc/api/internalentities/272e500c-a6dd-485e-a503-7ec151b684a1",
+              "description": "Level 0",
+              "type": "internalentity",
+              "status": "ACTIVE",
+              "lastModifiedAt": "2020-09-10T17:57:31.043"
+          },
+          "legalAddress": {
+              "id": "2b638d4b-38c1-4c67-9d1a-7880059c9c13"
+          },
+          "businessAddress": {
+              "id": "ec42c664-ce4e-457d-9c53-57e3f320b239"
+          },
+          "domicileAddress": {
+              "id": "71cc03d5-103f-4a4d-b8a3-02001fa84c77"
+          },
+          "additionalProperties": [
+              {
+                  "id": "8d06c12a-a351-4f7b-930f-75119028273f",
+                  "name": "IEPropertyName1",
+                  "value": "false"
+              },
+              {
+                  "id": "703aad4b-667f-48a5-9336-0b4b693220d3",
+                  "name": "IEPropertyName3"
+              },
+              {
+                  "id": "554a74bf-36d0-4f34-bf83-0994393a9786",
+                  "name": "IEPropertyName2"
+              },
+              {
+                  "id": "5e128ab8-e320-4d79-a9dc-6c90420c6f58",
+                  "name": "IEPropertyName4"
+              }
+          ]
+      }
+  },
+  {
+      "self": {
+          "href": "https://web/scc/api/internalentities/420a440e-fc50-45e4-9a8f-b92ca7b5c149",
+          "customer": "bluedog",
+          "metaInfo": "application/json; version=1; ION Group IBAM, 2019",
+          "asOfDateTime": "2020-09-10T18:11:13.113"
+      },
+      "internalEntity": {
+          "id": "420a440e-fc50-45e4-9a8f-b92ca7b5c149",
+          "status": "ACTIVE",
+          "lastModifiedAt": "2020-09-10T18:01:40.56",
+          "createdAt": "2020-09-10T18:00:37.793",
+          "entityName": "Level 1.1.1",
+          "masterAgreement": false,
+          "centralSignersAdopted": false,
+          "centrallyManaged": false,
+          "parent": {
+              "id": "f54e7d82-a2a7-4590-b143-93e6d0f15a02",
+              "href": "https://web/scc/api/internalentities/f54e7d82-a2a7-4590-b143-93e6d0f15a02",
+              "description": "Level 1.1",
+              "type": "internalentity",
+              "status": "ACTIVE",
+              "lastModifiedAt": "2020-09-10T17:59:08.297"
+          },
+          "ultimateParent": {
+              "id": "272e500c-a6dd-485e-a503-7ec151b684a1",
+              "href": "https://web/scc/api/internalentities/272e500c-a6dd-485e-a503-7ec151b684a1",
+              "description": "Level 0",
+              "type": "internalentity",
+              "status": "ACTIVE",
+              "lastModifiedAt": "2020-09-10T17:57:31.043"
+          },
+          "legalAddress": {
+              "id": "f5833a34-bb09-44fa-b08b-23b14821f7ba"
+          },
+          "businessAddress": {
+              "id": "45f48782-40ef-42bb-8381-259dc90e93da"
+          },
+          "domicileAddress": {
+              "id": "cd2c8e28-b8d5-4f79-914b-332fc92d4ce2"
+          },
+          "additionalProperties": [
+              {
+                  "id": "2333ec9a-1cc8-440a-8ba3-db077e55c8e9",
+                  "name": "IEPropertyName2"
+              },
+              {
+                  "id": "5d64b8e1-59a6-46ef-a5a2-7c65ddfbee2d",
+                  "name": "IEPropertyName3"
+              },
+              {
+                  "id": "8ca0b829-2340-4599-a657-8506c0e06c40",
+                  "name": "IEPropertyName4"
+              },
+              {
+                  "id": "73526efb-81b1-4736-a5a6-ecd9fd825e40",
+                  "name": "IEPropertyName1",
+                  "value": "false"
+              }
+          ]
+      }
+  },
+  {
+      "self": {
           "href": "https://web/scc/api/internalentities/9645a84e-2f2f-4b6d-91ed-fad89091a5c6",
           "customer": "bluedog",
           "metaInfo": "application/json; version=1; ION Group IBAM, 2019",
-          "asOfDateTime": "2020-09-10T12:45:03.009"
+          "asOfDateTime": "2020-09-10T18:11:13.113"
       },
       "internalEntity": {
           "id": "9645a84e-2f2f-4b6d-91ed-fad89091a5c6",
@@ -1405,7 +2136,7 @@ var data = [
           "href": "https://web/scc/api/internalentities/611a0908-74a7-469a-8276-795570b2de6e",
           "customer": "bluedog",
           "metaInfo": "application/json; version=1; ION Group IBAM, 2019",
-          "asOfDateTime": "2020-09-10T12:45:03.009"
+          "asOfDateTime": "2020-09-10T18:11:13.113"
       },
       "internalEntity": {
           "id": "611a0908-74a7-469a-8276-795570b2de6e",
@@ -1450,10 +2181,72 @@ var data = [
   },
   {
       "self": {
+          "href": "https://web/scc/api/internalentities/7fe51137-18db-407d-9d1a-ba7db15520a2",
+          "customer": "bluedog",
+          "metaInfo": "application/json; version=1; ION Group IBAM, 2019",
+          "asOfDateTime": "2020-09-10T18:11:13.113"
+      },
+      "internalEntity": {
+          "id": "7fe51137-18db-407d-9d1a-ba7db15520a2",
+          "status": "ACTIVE",
+          "lastModifiedAt": "2020-09-10T18:11:11.207",
+          "createdAt": "2020-09-10T18:09:36.293",
+          "entityName": "Level 1.4.1",
+          "masterAgreement": false,
+          "centralSignersAdopted": false,
+          "centrallyManaged": false,
+          "parent": {
+              "id": "3503277b-cf75-48d9-89ce-04855356a6b7",
+              "href": "https://web/scc/api/internalentities/3503277b-cf75-48d9-89ce-04855356a6b7",
+              "description": "Level 1.4",
+              "type": "internalentity",
+              "status": "ACTIVE",
+              "lastModifiedAt": "2020-09-10T18:08:23.727"
+          },
+          "ultimateParent": {
+              "id": "272e500c-a6dd-485e-a503-7ec151b684a1",
+              "href": "https://web/scc/api/internalentities/272e500c-a6dd-485e-a503-7ec151b684a1",
+              "description": "Level 0",
+              "type": "internalentity",
+              "status": "ACTIVE",
+              "lastModifiedAt": "2020-09-10T17:57:31.043"
+          },
+          "legalAddress": {
+              "id": "9382709f-d3a4-462a-be26-342ad569e9ff"
+          },
+          "businessAddress": {
+              "id": "d085c301-f90f-4aed-aff9-164f6b9f8aca"
+          },
+          "domicileAddress": {
+              "id": "49aa8886-9f78-42c7-80a7-55c645fc9cfd"
+          },
+          "additionalProperties": [
+              {
+                  "id": "eeda9457-e264-4d6a-bb77-84bef824e36d",
+                  "name": "IEPropertyName2"
+              },
+              {
+                  "id": "cdf7953b-2d55-4384-9cf4-ea04685d08af",
+                  "name": "IEPropertyName4"
+              },
+              {
+                  "id": "84a0fc5c-15ce-4667-9a02-0630b8d81bbc",
+                  "name": "IEPropertyName1",
+                  "value": "false"
+              },
+              {
+                  "id": "cf575ef2-ca9f-4391-ac24-f5606a074fbb",
+                  "name": "IEPropertyName3"
+              }
+          ]
+      }
+  },
+  {
+      "self": {
           "href": "https://web/scc/api/internalentities/7c06ffac-00b1-4778-b07e-1a9ef0ac5300",
           "customer": "bluedog",
           "metaInfo": "application/json; version=1; ION Group IBAM, 2019",
-          "asOfDateTime": "2020-09-10T12:45:03.009"
+          "asOfDateTime": "2020-09-10T18:11:13.113"
       },
       "internalEntity": {
           "id": "7c06ffac-00b1-4778-b07e-1a9ef0ac5300",
@@ -1559,7 +2352,7 @@ var data = [
           "href": "https://web/scc/api/internalentities/544f1b9d-d78d-4795-a30b-91351e1c059a",
           "customer": "bluedog",
           "metaInfo": "application/json; version=1; ION Group IBAM, 2019",
-          "asOfDateTime": "2020-09-10T12:45:03.009"
+          "asOfDateTime": "2020-09-10T18:11:13.113"
       },
       "internalEntity": {
           "id": "544f1b9d-d78d-4795-a30b-91351e1c059a",
@@ -1621,7 +2414,7 @@ var data = [
           "href": "https://web/scc/api/internalentities/f7ee8179-ae8b-4029-bdbf-2284a2861628",
           "customer": "bluedog",
           "metaInfo": "application/json; version=1; ION Group IBAM, 2019",
-          "asOfDateTime": "2020-09-10T12:45:03.009"
+          "asOfDateTime": "2020-09-10T18:11:13.113"
       },
       "internalEntity": {
           "id": "f7ee8179-ae8b-4029-bdbf-2284a2861628",
@@ -1652,7 +2445,7 @@ var data = [
           "href": "https://web/scc/api/internalentities/68c003ef-91f2-4a16-ae1d-ba75a31026d5",
           "customer": "bluedog",
           "metaInfo": "application/json; version=1; ION Group IBAM, 2019",
-          "asOfDateTime": "2020-09-10T12:45:03.009"
+          "asOfDateTime": "2020-09-10T18:11:13.113"
       },
       "internalEntity": {
           "id": "68c003ef-91f2-4a16-ae1d-ba75a31026d5",
@@ -1680,10 +2473,72 @@ var data = [
           },
           "ownershipPercentage": 0.000
       }
+  },
+  {
+      "self": {
+          "href": "https://web/scc/api/internalentities/79d269ba-c2cd-4b61-b653-840df7250e78",
+          "customer": "bluedog",
+          "metaInfo": "application/json; version=1; ION Group IBAM, 2019",
+          "asOfDateTime": "2020-09-10T18:11:13.113"
+      },
+      "internalEntity": {
+          "id": "79d269ba-c2cd-4b61-b653-840df7250e78",
+          "status": "ACTIVE",
+          "lastModifiedAt": "2020-09-10T17:45:43.82",
+          "createdAt": "2020-09-10T17:45:42.58",
+          "entityName": "Other Child Parent",
+          "masterAgreement": false,
+          "centralSignersAdopted": false,
+          "centrallyManaged": false,
+          "parent": {
+              "id": "544f1b9d-d78d-4795-a30b-91351e1c059a",
+              "href": "https://web/scc/api/internalentities/544f1b9d-d78d-4795-a30b-91351e1c059a",
+              "description": "Middle Parent",
+              "type": "internalentity",
+              "status": "ACTIVE",
+              "lastModifiedAt": "2020-09-10T12:43:54.637"
+          },
+          "ultimateParent": {
+              "id": "43957019-45bb-4ae1-9bde-34008091ff91",
+              "href": "https://web/scc/api/internalentities/43957019-45bb-4ae1-9bde-34008091ff91",
+              "description": "Top Parent",
+              "type": "internalentity",
+              "status": "ACTIVE",
+              "lastModifiedAt": "2020-09-10T12:43:01.6"
+          },
+          "legalAddress": {
+              "id": "99abba84-c97b-422d-9b51-24302077e989"
+          },
+          "businessAddress": {
+              "id": "2cae4370-bd72-4871-a043-88d946716c33"
+          },
+          "domicileAddress": {
+              "id": "de3756b3-133c-4411-aeb8-52472ffbb009"
+          },
+          "additionalProperties": [
+              {
+                  "id": "8d8c7f2b-034e-49e0-bf1b-3fdb2672bdf4",
+                  "name": "IEPropertyName4"
+              },
+              {
+                  "id": "c978a7e9-aea5-49a1-a07b-00052866f305",
+                  "name": "IEPropertyName2"
+              },
+              {
+                  "id": "d625f1ea-0f13-4c8a-9911-3cd7af7f6b1d",
+                  "name": "IEPropertyName1",
+                  "value": "false"
+              },
+              {
+                  "id": "83f72713-846e-4c08-9d20-18cd1b0c6537",
+                  "name": "IEPropertyName3"
+              }
+          ]
+      }
   }
 ]
 
-var mainEntity = "Child Parent";
+var mainEntity = "Level 1.3.1";
 
 var entityData = data.filter((internalEntities) => {
   return internalEntities["internalEntity"].entityName == mainEntity;
@@ -1715,6 +2570,9 @@ var structuredData = getHeirarchy.map(internalEntities => {
     data: {
           legalAddress: internalEntities["internalEntity"]["legalAddress"] ? internalEntities["internalEntity"]["legalAddress"]: null
     }, 
+    "status": internalEntities["internalEntity"]["status"],
+    "lastModifiedAt": new Date(internalEntities["internalEntity"]["lastModifiedAt"]).toDateString(),
+    "createdAt": new Date(internalEntities["internalEntity"]["createdAt"]).toDateString(),
     children: []
   }
 })
@@ -1734,4 +2592,36 @@ var finalData = structuredData.filter((entity, index, originalArray) => {
   originalArray[index].children = childData;
 })
 
-debugger;
+function drawChart() {
+
+  var data = new google.visualization.DataTable();
+
+  data.addColumn('string', 'Name');
+  data.addColumn('string', 'Manager');
+  data.addColumn('string', 'ToolTip');
+
+
+  var tableData = [];
+
+  structuredData.forEach((value) => {
+    tableData.push([
+      {
+        'v': value.id,
+        'f': `
+          <div>
+            <h3>${value.entityName}</h3>
+            <div style="font-style:italic"><b>Status: </b>${value.status}</div>
+            <div style="font-style:italic"><b>Last Modified At: </b>${value.lastModifiedAt}</div>
+            <div style="font-style:italic"><b>Created At: </b>${value.createdAt}</div>
+          <div>`
+      }, value.parentId, ""
+    ])
+  })
+
+  data.addRows(tableData)
+
+  var chart = new google.visualization.OrgChart(document.getElementById('chart_div'));
+
+  chart.draw(data, { 'allowHtml': true });
+
+}
