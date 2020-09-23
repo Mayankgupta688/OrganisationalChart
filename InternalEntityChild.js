@@ -6,7 +6,7 @@ var data = [
             "href": "https://web/scc/api/internalentities/299ab227-f2e4-497d-9374-bfa75b3adb73",
             "customer": "bluedog",
             "metaInfo": "application/json; version=1; ION Group IBAM, 2019",
-            "asOfDateTime": "2020-09-11T01:36:09.484"
+            "asOfDateTime": "2020-09-12T07:28:04.449"
         },
         "internalEntity": {
             "id": "299ab227-f2e4-497d-9374-bfa75b3adb73",
@@ -54,7 +54,7 @@ var data = [
             "href": "https://web/scc/api/internalentities/91f63175-e568-4b8c-9714-9500f42a109d",
             "customer": "bluedog",
             "metaInfo": "application/json; version=1; ION Group IBAM, 2019",
-            "asOfDateTime": "2020-09-11T01:36:09.484"
+            "asOfDateTime": "2020-09-12T07:28:04.449"
         },
         "internalEntity": {
             "id": "91f63175-e568-4b8c-9714-9500f42a109d",
@@ -108,7 +108,7 @@ var data = [
             "href": "https://web/scc/api/internalentities/7daaf148-7197-4d22-a2f2-551cf062253f",
             "customer": "bluedog",
             "metaInfo": "application/json; version=1; ION Group IBAM, 2019",
-            "asOfDateTime": "2020-09-11T01:36:09.484"
+            "asOfDateTime": "2020-09-12T07:28:04.449"
         },
         "internalEntity": {
             "id": "7daaf148-7197-4d22-a2f2-551cf062253f",
@@ -170,7 +170,7 @@ var data = [
             "href": "https://web/scc/api/internalentities/full-ie-branch",
             "customer": "bluedog",
             "metaInfo": "application/json; version=1; ION Group IBAM, 2019",
-            "asOfDateTime": "2020-09-11T01:36:09.484"
+            "asOfDateTime": "2020-09-12T07:28:04.449"
         },
         "internalEntity": {
             "id": "full-ie-branch",
@@ -217,7 +217,7 @@ var data = [
             "href": "https://web/scc/api/internalentities/full-ie",
             "customer": "bluedog",
             "metaInfo": "application/json; version=1; ION Group IBAM, 2019",
-            "asOfDateTime": "2020-09-11T01:36:09.484"
+            "asOfDateTime": "2020-09-12T07:28:04.449"
         },
         "internalEntity": {
             "id": "full-ie",
@@ -385,7 +385,7 @@ var data = [
             "href": "https://web/scc/api/internalentities/2c879818-f09b-413b-8a16-40d4cfa77f68",
             "customer": "bluedog",
             "metaInfo": "application/json; version=1; ION Group IBAM, 2019",
-            "asOfDateTime": "2020-09-11T01:36:09.484"
+            "asOfDateTime": "2020-09-12T07:28:04.449"
         },
         "internalEntity": {
             "id": "2c879818-f09b-413b-8a16-40d4cfa77f68",
@@ -416,7 +416,7 @@ var data = [
             "href": "https://web/scc/api/internalentities/225fd654-4ccd-4177-a719-d3e62f4257ea",
             "customer": "bluedog",
             "metaInfo": "application/json; version=1; ION Group IBAM, 2019",
-            "asOfDateTime": "2020-09-11T01:36:09.484"
+            "asOfDateTime": "2020-09-12T07:28:04.449"
         },
         "internalEntity": {
             "id": "225fd654-4ccd-4177-a719-d3e62f4257ea",
@@ -518,7 +518,7 @@ var data = [
             "href": "https://web/scc/api/internalentities/813fa876-e208-414d-acda-9534114b44d0",
             "customer": "bluedog",
             "metaInfo": "application/json; version=1; ION Group IBAM, 2019",
-            "asOfDateTime": "2020-09-11T01:36:09.484"
+            "asOfDateTime": "2020-09-12T07:28:04.449"
         },
         "internalEntity": {
             "id": "813fa876-e208-414d-acda-9534114b44d0",
@@ -572,7 +572,7 @@ var data = [
             "href": "https://web/scc/api/internalentities/192089ef-fe22-42bd-82ef-3dd782372205",
             "customer": "bluedog",
             "metaInfo": "application/json; version=1; ION Group IBAM, 2019",
-            "asOfDateTime": "2020-09-11T01:36:09.484"
+            "asOfDateTime": "2020-09-12T07:28:04.449"
         },
         "internalEntity": {
             "id": "192089ef-fe22-42bd-82ef-3dd782372205",
@@ -626,7 +626,7 @@ var data = [
             "href": "https://web/scc/api/internalentities/e5c03af6-3011-4b6c-9946-a2397788dd7b",
             "customer": "bluedog",
             "metaInfo": "application/json; version=1; ION Group IBAM, 2019",
-            "asOfDateTime": "2020-09-11T01:36:09.484"
+            "asOfDateTime": "2020-09-12T07:28:04.449"
         },
         "internalEntity": {
             "id": "e5c03af6-3011-4b6c-9946-a2397788dd7b",
@@ -657,7 +657,7 @@ var data = [
             "href": "https://web/scc/api/internalentities/921acd7d-2863-493a-90e4-b42b1b9cb84d",
             "customer": "bluedog",
             "metaInfo": "application/json; version=1; ION Group IBAM, 2019",
-            "asOfDateTime": "2020-09-11T01:36:09.484"
+            "asOfDateTime": "2020-09-12T07:28:04.449"
         },
         "internalEntity": {
             "id": "921acd7d-2863-493a-90e4-b42b1b9cb84d",
@@ -711,7 +711,7 @@ var data = [
             "href": "https://web/scc/api/internalentities/3503277b-cf75-48d9-89ce-04855356a6b7",
             "customer": "bluedog",
             "metaInfo": "application/json; version=1; ION Group IBAM, 2019",
-            "asOfDateTime": "2020-09-11T01:36:09.484"
+            "asOfDateTime": "2020-09-12T07:28:04.449"
         },
         "internalEntity": {
             "id": "3503277b-cf75-48d9-89ce-04855356a6b7",
@@ -773,7 +773,7 @@ var data = [
             "href": "https://web/scc/api/internalentities/738a120c-dbdf-4206-a33a-dc3278855264",
             "customer": "bluedog",
             "metaInfo": "application/json; version=1; ION Group IBAM, 2019",
-            "asOfDateTime": "2020-09-11T01:36:09.484"
+            "asOfDateTime": "2020-09-12T07:28:04.449"
         },
         "internalEntity": {
             "id": "738a120c-dbdf-4206-a33a-dc3278855264",
@@ -835,7 +835,7 @@ var data = [
             "href": "https://web/scc/api/internalentities/full-ie-ultimate",
             "customer": "bluedog",
             "metaInfo": "application/json; version=1; ION Group IBAM, 2019",
-            "asOfDateTime": "2020-09-11T01:36:09.484"
+            "asOfDateTime": "2020-09-12T07:28:04.449"
         },
         "internalEntity": {
             "id": "full-ie-ultimate",
@@ -882,7 +882,7 @@ var data = [
             "href": "https://web/scc/api/internalentities/d0650b0f-ef6b-4669-8ebc-ed2df1e234b3",
             "customer": "bluedog",
             "metaInfo": "application/json; version=1; ION Group IBAM, 2019",
-            "asOfDateTime": "2020-09-11T01:36:09.484"
+            "asOfDateTime": "2020-09-12T07:28:04.449"
         },
         "internalEntity": {
             "id": "d0650b0f-ef6b-4669-8ebc-ed2df1e234b3",
@@ -910,10 +910,64 @@ var data = [
     },
     {
         "self": {
+            "href": "https://web/scc/api/internalentities/cc69d9f5-a956-47ef-bb49-46241e0adfb3",
+            "customer": "bluedog",
+            "metaInfo": "application/json; version=1; ION Group IBAM, 2019",
+            "asOfDateTime": "2020-09-12T07:28:04.449"
+        },
+        "internalEntity": {
+            "id": "cc69d9f5-a956-47ef-bb49-46241e0adfb3",
+            "status": "ACTIVE",
+            "lastModifiedAt": "2020-09-12T07:27:48.393",
+            "createdAt": "2020-09-12T07:03:24.747",
+            "entityName": "Level Random",
+            "masterAgreement": false,
+            "centralSignersAdopted": false,
+            "centrallyManaged": false,
+            "ultimateParent": {
+                "id": "272e500c-a6dd-485e-a503-7ec151b684a1",
+                "href": "https://web/scc/api/internalentities/272e500c-a6dd-485e-a503-7ec151b684a1",
+                "description": "Level 0",
+                "type": "internalentity",
+                "status": "ACTIVE",
+                "lastModifiedAt": "2020-09-10T17:57:31.043"
+            },
+            "legalAddress": {
+                "id": "0c0ff777-cda7-4a45-b7b8-fd539cf0cb17"
+            },
+            "businessAddress": {
+                "id": "637c3a28-e4ec-47ad-929c-d20e368faf63"
+            },
+            "domicileAddress": {
+                "id": "f1ba64a4-8eaa-4c32-bc84-653e41d260ed"
+            },
+            "additionalProperties": [
+                {
+                    "id": "56c81c21-8d81-4c70-bfa8-27aff52971b1",
+                    "name": "IEPropertyName1",
+                    "value": "false"
+                },
+                {
+                    "id": "e3509d40-a502-4d70-8900-0db23cffa12b",
+                    "name": "IEPropertyName2"
+                },
+                {
+                    "id": "8ae821f8-94fe-498a-8058-4bbba516d560",
+                    "name": "IEPropertyName4"
+                },
+                {
+                    "id": "0f4486c4-03ac-49dd-a4f7-fc362d5f7167",
+                    "name": "IEPropertyName3"
+                }
+            ]
+        }
+    },
+    {
+        "self": {
             "href": "https://web/scc/api/internalentities/bf687706-c8cf-4beb-bce1-bd6a85b62d02",
             "customer": "bluedog",
             "metaInfo": "application/json; version=1; ION Group IBAM, 2019",
-            "asOfDateTime": "2020-09-11T01:36:09.484"
+            "asOfDateTime": "2020-09-12T07:28:04.449"
         },
         "internalEntity": {
             "id": "bf687706-c8cf-4beb-bce1-bd6a85b62d02",
@@ -975,7 +1029,7 @@ var data = [
             "href": "https://web/scc/api/internalentities/e30a7129-1bea-47e4-ade8-91a20d1c692e",
             "customer": "bluedog",
             "metaInfo": "application/json; version=1; ION Group IBAM, 2019",
-            "asOfDateTime": "2020-09-11T01:36:09.484"
+            "asOfDateTime": "2020-09-12T07:28:04.449"
         },
         "internalEntity": {
             "id": "e30a7129-1bea-47e4-ade8-91a20d1c692e",
@@ -1011,7 +1065,7 @@ var data = [
             "href": "https://web/scc/api/internalentities/d046b055-0761-471a-be72-141708721777",
             "customer": "bluedog",
             "metaInfo": "application/json; version=1; ION Group IBAM, 2019",
-            "asOfDateTime": "2020-09-11T01:36:09.484"
+            "asOfDateTime": "2020-09-12T07:28:04.449"
         },
         "internalEntity": {
             "id": "d046b055-0761-471a-be72-141708721777",
@@ -1073,7 +1127,7 @@ var data = [
             "href": "https://web/scc/api/internalentities/9645a84e-2f2f-4b6d-91ed-fad89091a5c6",
             "customer": "bluedog",
             "metaInfo": "application/json; version=1; ION Group IBAM, 2019",
-            "asOfDateTime": "2020-09-11T01:36:09.484"
+            "asOfDateTime": "2020-09-12T07:28:04.449"
         },
         "internalEntity": {
             "id": "9645a84e-2f2f-4b6d-91ed-fad89091a5c6",
@@ -1116,7 +1170,7 @@ var data = [
             "href": "https://web/scc/api/internalentities/7fe51137-18db-407d-9d1a-ba7db15520a2",
             "customer": "bluedog",
             "metaInfo": "application/json; version=1; ION Group IBAM, 2019",
-            "asOfDateTime": "2020-09-11T01:36:09.484"
+            "asOfDateTime": "2020-09-12T07:28:04.449"
         },
         "internalEntity": {
             "id": "7fe51137-18db-407d-9d1a-ba7db15520a2",
@@ -1178,7 +1232,7 @@ var data = [
             "href": "https://web/scc/api/internalentities/98976f12-f0f5-4fcd-bfbc-752205210ffa",
             "customer": "bluedog",
             "metaInfo": "application/json; version=1; ION Group IBAM, 2019",
-            "asOfDateTime": "2020-09-11T01:36:09.484"
+            "asOfDateTime": "2020-09-12T07:28:04.449"
         },
         "internalEntity": {
             "id": "98976f12-f0f5-4fcd-bfbc-752205210ffa",
@@ -1232,7 +1286,7 @@ var data = [
             "href": "https://web/scc/api/internalentities/79d269ba-c2cd-4b61-b653-840df7250e78",
             "customer": "bluedog",
             "metaInfo": "application/json; version=1; ION Group IBAM, 2019",
-            "asOfDateTime": "2020-09-11T01:36:09.484"
+            "asOfDateTime": "2020-09-12T07:28:04.449"
         },
         "internalEntity": {
             "id": "79d269ba-c2cd-4b61-b653-840df7250e78",
@@ -1294,7 +1348,7 @@ var data = [
             "href": "https://web/scc/api/internalentities/389e9f1f-5a9e-450f-aa75-e862238223a7",
             "customer": "bluedog",
             "metaInfo": "application/json; version=1; ION Group IBAM, 2019",
-            "asOfDateTime": "2020-09-11T01:36:09.484"
+            "asOfDateTime": "2020-09-12T07:28:04.449"
         },
         "internalEntity": {
             "id": "389e9f1f-5a9e-450f-aa75-e862238223a7",
@@ -1356,7 +1410,7 @@ var data = [
             "href": "https://web/scc/api/internalentities/8aba7c67-d203-4f14-be5b-09f85ca69bfe",
             "customer": "bluedog",
             "metaInfo": "application/json; version=1; ION Group IBAM, 2019",
-            "asOfDateTime": "2020-09-11T01:36:09.484"
+            "asOfDateTime": "2020-09-12T07:28:04.449"
         },
         "internalEntity": {
             "id": "8aba7c67-d203-4f14-be5b-09f85ca69bfe",
@@ -1481,7 +1535,7 @@ var data = [
             "href": "https://web/scc/api/internalentities/40372d22-ccbf-455c-9998-cd1d8aa8d056",
             "customer": "bluedog",
             "metaInfo": "application/json; version=1; ION Group IBAM, 2019",
-            "asOfDateTime": "2020-09-11T01:36:09.484"
+            "asOfDateTime": "2020-09-12T07:28:04.449"
         },
         "internalEntity": {
             "id": "40372d22-ccbf-455c-9998-cd1d8aa8d056",
@@ -1543,7 +1597,7 @@ var data = [
             "href": "https://web/scc/api/internalentities/full-ie-unicode-1",
             "customer": "bluedog",
             "metaInfo": "application/json; version=1; ION Group IBAM, 2019",
-            "asOfDateTime": "2020-09-11T01:36:09.484"
+            "asOfDateTime": "2020-09-12T07:28:04.449"
         },
         "internalEntity": {
             "id": "full-ie-unicode-1",
@@ -1692,7 +1746,7 @@ var data = [
             "href": "https://web/scc/api/internalentities/3e024582-eecf-4e9c-8fde-ad13beed7ed0",
             "customer": "bluedog",
             "metaInfo": "application/json; version=1; ION Group IBAM, 2019",
-            "asOfDateTime": "2020-09-11T01:36:09.484"
+            "asOfDateTime": "2020-09-12T07:28:04.449"
         },
         "internalEntity": {
             "id": "3e024582-eecf-4e9c-8fde-ad13beed7ed0",
@@ -1754,7 +1808,7 @@ var data = [
             "href": "https://web/scc/api/internalentities/a6c5a483-f0aa-48a0-9e37-7afe059a6040",
             "customer": "bluedog",
             "metaInfo": "application/json; version=1; ION Group IBAM, 2019",
-            "asOfDateTime": "2020-09-11T01:36:09.484"
+            "asOfDateTime": "2020-09-12T07:28:04.449"
         },
         "internalEntity": {
             "id": "a6c5a483-f0aa-48a0-9e37-7afe059a6040",
@@ -1785,7 +1839,7 @@ var data = [
             "href": "https://web/scc/api/internalentities/43957019-45bb-4ae1-9bde-34008091ff91",
             "customer": "bluedog",
             "metaInfo": "application/json; version=1; ION Group IBAM, 2019",
-            "asOfDateTime": "2020-09-11T01:36:09.484"
+            "asOfDateTime": "2020-09-12T07:28:04.449"
         },
         "internalEntity": {
             "id": "43957019-45bb-4ae1-9bde-34008091ff91",
@@ -1833,7 +1887,7 @@ var data = [
             "href": "https://web/scc/api/internalentities/272e500c-a6dd-485e-a503-7ec151b684a1",
             "customer": "bluedog",
             "metaInfo": "application/json; version=1; ION Group IBAM, 2019",
-            "asOfDateTime": "2020-09-11T01:36:09.484"
+            "asOfDateTime": "2020-09-12T07:28:04.449"
         },
         "internalEntity": {
             "id": "272e500c-a6dd-485e-a503-7ec151b684a1",
@@ -1879,7 +1933,7 @@ var data = [
             "href": "https://web/scc/api/internalentities/4747365a-5923-48f3-ad63-0bce65f2107f",
             "customer": "bluedog",
             "metaInfo": "application/json; version=1; ION Group IBAM, 2019",
-            "asOfDateTime": "2020-09-11T01:36:09.484"
+            "asOfDateTime": "2020-09-12T07:28:04.449"
         },
         "internalEntity": {
             "id": "4747365a-5923-48f3-ad63-0bce65f2107f",
@@ -1927,7 +1981,7 @@ var data = [
             "href": "https://web/scc/api/internalentities/a3237b74-b778-4e05-a40b-ebf2808c55f3",
             "customer": "bluedog",
             "metaInfo": "application/json; version=1; ION Group IBAM, 2019",
-            "asOfDateTime": "2020-09-11T01:36:09.484"
+            "asOfDateTime": "2020-09-12T07:28:04.449"
         },
         "internalEntity": {
             "id": "a3237b74-b778-4e05-a40b-ebf2808c55f3",
@@ -1989,7 +2043,7 @@ var data = [
             "href": "https://web/scc/api/internalentities/f54e7d82-a2a7-4590-b143-93e6d0f15a02",
             "customer": "bluedog",
             "metaInfo": "application/json; version=1; ION Group IBAM, 2019",
-            "asOfDateTime": "2020-09-11T01:36:09.484"
+            "asOfDateTime": "2020-09-12T07:28:04.449"
         },
         "internalEntity": {
             "id": "f54e7d82-a2a7-4590-b143-93e6d0f15a02",
@@ -2051,7 +2105,7 @@ var data = [
             "href": "https://web/scc/api/internalentities/b7402e96-32ef-4c31-a7a2-828525777ca6",
             "customer": "bluedog",
             "metaInfo": "application/json; version=1; ION Group IBAM, 2019",
-            "asOfDateTime": "2020-09-11T01:36:09.484"
+            "asOfDateTime": "2020-09-12T07:28:04.449"
         },
         "internalEntity": {
             "id": "b7402e96-32ef-4c31-a7a2-828525777ca6",
@@ -2105,7 +2159,7 @@ var data = [
             "href": "https://web/scc/api/internalentities/e3e30774-b0b3-4e26-90a7-53d8221e0334",
             "customer": "bluedog",
             "metaInfo": "application/json; version=1; ION Group IBAM, 2019",
-            "asOfDateTime": "2020-09-11T01:36:09.484"
+            "asOfDateTime": "2020-09-12T07:28:04.449"
         },
         "internalEntity": {
             "id": "e3e30774-b0b3-4e26-90a7-53d8221e0334",
@@ -2138,7 +2192,7 @@ var data = [
             "href": "https://web/scc/api/internalentities/10da4c3b-f70e-41c1-857d-c760e142bbc9",
             "customer": "bluedog",
             "metaInfo": "application/json; version=1; ION Group IBAM, 2019",
-            "asOfDateTime": "2020-09-11T01:36:09.484"
+            "asOfDateTime": "2020-09-12T07:28:04.449"
         },
         "internalEntity": {
             "id": "10da4c3b-f70e-41c1-857d-c760e142bbc9",
@@ -2239,7 +2293,7 @@ var data = [
             "href": "https://web/scc/api/internalentities/IE1",
             "customer": "bluedog",
             "metaInfo": "application/json; version=1; ION Group IBAM, 2019",
-            "asOfDateTime": "2020-09-11T01:36:09.484"
+            "asOfDateTime": "2020-09-12T07:28:04.449"
         },
         "internalEntity": {
             "id": "IE1",
@@ -2329,7 +2383,7 @@ var data = [
             "href": "https://web/scc/api/internalentities/full-ie-parent",
             "customer": "bluedog",
             "metaInfo": "application/json; version=1; ION Group IBAM, 2019",
-            "asOfDateTime": "2020-09-11T01:36:09.484"
+            "asOfDateTime": "2020-09-12T07:28:04.449"
         },
         "internalEntity": {
             "id": "full-ie-parent",
@@ -2376,7 +2430,7 @@ var data = [
             "href": "https://web/scc/api/internalentities/a50424ed-50c3-44ad-9dd6-f0f3e5ebc619",
             "customer": "bluedog",
             "metaInfo": "application/json; version=1; ION Group IBAM, 2019",
-            "asOfDateTime": "2020-09-11T01:36:09.484"
+            "asOfDateTime": "2020-09-12T07:28:04.449"
         },
         "internalEntity": {
             "id": "a50424ed-50c3-44ad-9dd6-f0f3e5ebc619",
@@ -2411,7 +2465,7 @@ var data = [
             "href": "https://web/scc/api/internalentities/ce43f7e1-1621-45eb-a044-dc322934728b",
             "customer": "bluedog",
             "metaInfo": "application/json; version=1; ION Group IBAM, 2019",
-            "asOfDateTime": "2020-09-11T01:36:09.484"
+            "asOfDateTime": "2020-09-12T07:28:04.449"
         },
         "internalEntity": {
             "id": "ce43f7e1-1621-45eb-a044-dc322934728b",
@@ -2459,7 +2513,7 @@ var data = [
             "href": "https://web/scc/api/internalentities/2f24992b-e5df-4001-bade-3ae4316f7f0b",
             "customer": "bluedog",
             "metaInfo": "application/json; version=1; ION Group IBAM, 2019",
-            "asOfDateTime": "2020-09-11T01:36:09.484"
+            "asOfDateTime": "2020-09-12T07:28:04.449"
         },
         "internalEntity": {
             "id": "2f24992b-e5df-4001-bade-3ae4316f7f0b",
@@ -2521,7 +2575,7 @@ var data = [
             "href": "https://web/scc/api/internalentities/420a440e-fc50-45e4-9a8f-b92ca7b5c149",
             "customer": "bluedog",
             "metaInfo": "application/json; version=1; ION Group IBAM, 2019",
-            "asOfDateTime": "2020-09-11T01:36:09.484"
+            "asOfDateTime": "2020-09-12T07:28:04.449"
         },
         "internalEntity": {
             "id": "420a440e-fc50-45e4-9a8f-b92ca7b5c149",
@@ -2583,7 +2637,7 @@ var data = [
             "href": "https://web/scc/api/internalentities/611a0908-74a7-469a-8276-795570b2de6e",
             "customer": "bluedog",
             "metaInfo": "application/json; version=1; ION Group IBAM, 2019",
-            "asOfDateTime": "2020-09-11T01:36:09.484"
+            "asOfDateTime": "2020-09-12T07:28:04.449"
         },
         "internalEntity": {
             "id": "611a0908-74a7-469a-8276-795570b2de6e",
@@ -2631,7 +2685,7 @@ var data = [
             "href": "https://web/scc/api/internalentities/7c06ffac-00b1-4778-b07e-1a9ef0ac5300",
             "customer": "bluedog",
             "metaInfo": "application/json; version=1; ION Group IBAM, 2019",
-            "asOfDateTime": "2020-09-11T01:36:09.484"
+            "asOfDateTime": "2020-09-12T07:28:04.449"
         },
         "internalEntity": {
             "id": "7c06ffac-00b1-4778-b07e-1a9ef0ac5300",
@@ -2737,7 +2791,7 @@ var data = [
             "href": "https://web/scc/api/internalentities/544f1b9d-d78d-4795-a30b-91351e1c059a",
             "customer": "bluedog",
             "metaInfo": "application/json; version=1; ION Group IBAM, 2019",
-            "asOfDateTime": "2020-09-11T01:36:09.484"
+            "asOfDateTime": "2020-09-12T07:28:04.449"
         },
         "internalEntity": {
             "id": "544f1b9d-d78d-4795-a30b-91351e1c059a",
@@ -2799,7 +2853,7 @@ var data = [
             "href": "https://web/scc/api/internalentities/f7ee8179-ae8b-4029-bdbf-2284a2861628",
             "customer": "bluedog",
             "metaInfo": "application/json; version=1; ION Group IBAM, 2019",
-            "asOfDateTime": "2020-09-11T01:36:09.484"
+            "asOfDateTime": "2020-09-12T07:28:04.449"
         },
         "internalEntity": {
             "id": "f7ee8179-ae8b-4029-bdbf-2284a2861628",
@@ -2830,7 +2884,7 @@ var data = [
             "href": "https://web/scc/api/internalentities/3ab27e6c-72d2-47b2-9b0f-827f06896635",
             "customer": "bluedog",
             "metaInfo": "application/json; version=1; ION Group IBAM, 2019",
-            "asOfDateTime": "2020-09-11T01:36:09.484"
+            "asOfDateTime": "2020-09-12T07:28:04.449"
         },
         "internalEntity": {
             "id": "3ab27e6c-72d2-47b2-9b0f-827f06896635",
@@ -2884,7 +2938,7 @@ var data = [
             "href": "https://web/scc/api/internalentities/69dfdf45-daf5-404c-a8ab-194f47b0997f",
             "customer": "bluedog",
             "metaInfo": "application/json; version=1; ION Group IBAM, 2019",
-            "asOfDateTime": "2020-09-11T01:36:09.484"
+            "asOfDateTime": "2020-09-12T07:28:04.449"
         },
         "internalEntity": {
             "id": "69dfdf45-daf5-404c-a8ab-194f47b0997f",
@@ -2938,7 +2992,7 @@ var data = [
             "href": "https://web/scc/api/internalentities/68c003ef-91f2-4a16-ae1d-ba75a31026d5",
             "customer": "bluedog",
             "metaInfo": "application/json; version=1; ION Group IBAM, 2019",
-            "asOfDateTime": "2020-09-11T01:36:09.484"
+            "asOfDateTime": "2020-09-12T07:28:04.449"
         },
         "internalEntity": {
             "id": "68c003ef-91f2-4a16-ae1d-ba75a31026d5",
@@ -2995,7 +3049,6 @@ function IterateAndCreateChild(entityId, parentId=null) {
     var childNodes = [];
 
     for(let i = 0; i< data.length; i++) {
-        var isChild = false;
         if(data[i].internalEntity.parent && data[i].internalEntity.parent.id == entityId) {
             childNodes.push(data[i])
         } else if(!data[i].internalEntity.parent && data[i].internalEntity.ultimateParent && data[i].internalEntity.ultimateParent.id == entityId) {
@@ -3010,7 +3063,7 @@ function IterateAndCreateChild(entityId, parentId=null) {
     }
 }
 
-IterateAndCreateChild("192089ef-fe22-42bd-82ef-3dd782372205")
+IterateAndCreateChild("272e500c-a6dd-485e-a503-7ec151b684a1")
 
 google.charts.load('current', { packages: ["orgchart"] });
 google.charts.setOnLoadCallback(() => drawChart(mainNode));
